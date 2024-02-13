@@ -54,13 +54,13 @@ Run this command in your terminal:
 
 Configuration
 -----
-Here is a demo of what you can do with `HyperManager` to add groups and connections which will be accessible from the `Hyper.js` menu :
+Here is a demo of what you can do with `HyperNexus` to add groups and connections which will be accessible from the `Hyper.js` menu :
 
 ![Screncast 002](https://github.com/oOthkOo/hyper-manager/blob/main/screencasts/screencast-002.gif)
 
 #### Locations
 
-`HyperManager` saves its configuration in a hidden file `.hyper-manager.json` in `JSON` format.<br />
+`HyperNexus` saves its configuration in a hidden file `.hyper-manager.json` in `JSON` format.<br />
 Here is where this file is found depending on your operating system:
 
  OS | Paths
@@ -71,7 +71,7 @@ Here is where this file is found depending on your operating system:
 
 #### Default configuration
 
-`HyperManager` saves its own configuration apart from that of Hyper.js. If `HyperManager` does not find a valid configuration file, then it loads an empty configuration:
+`HyperNexus` saves its own configuration apart from that of Hyper.js. If `HyperNexus` does not find a valid configuration file, then it loads an empty configuration:
 
 ```json
 {

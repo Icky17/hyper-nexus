@@ -6,7 +6,7 @@ const defaultConfig = require('./configurations/default')
 
 const defaultConfigFileName = '.hyper-manager.json'
 
-class HyperManager {
+class HyperNexus {
 
   constructor() {
     this.options = {}
@@ -38,7 +38,7 @@ class HyperManager {
 
   getConfigFileName() {
     const userHome = this.getUserHome()
-    return path.resolve(`${userHome}/${defaultConfigFileName}`)
+    return path.resolve(`${userHome}/AppData/Roaming/Hyper/${defaultConfigFileName}`)
   }
 
   getConfig() {
@@ -266,11 +266,11 @@ class HyperManager {
       }
       groupMenus.push(this.createParameterMenuItem())
       menu.push({
-        label: 'HyperManager',
+        label: 'HyperNexus',
         submenu: groupMenus
       })
       return menu
   }
 }
 
-module.exports = HyperManager
+module.exports = HyperNexus

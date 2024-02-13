@@ -1,6 +1,6 @@
 {
-  "name": "hyper-manager",
-  "version": "1.0.7",
+  "name": "hyper-nexus",
+  "version": "1.0.0",
   "main": "./index.js",
   "scripts": {
     "start": "npm run build -- --watch --release",

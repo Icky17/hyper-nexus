@@ -255,7 +255,7 @@ class ParameterDialog extends Component {
 
   getTitle() {
     const version = _.get(this.state, 'options.version', '')
-    return `HyperManager (v${version})`
+    return `HyperNexus (v${version})`
   }
 
   render() {

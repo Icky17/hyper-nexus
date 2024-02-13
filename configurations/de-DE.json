@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "labels": {
+    "openAll": "Alle öffnen",
+    "parameters": "Parameter...",
+
+    "add": "Hinzufügen",
+    "duplicate": "Duplizieren",
+    "modify": "Ändern",
+    "delete": "Löschen",
+    "ok": "Ok",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+
+    "restartTitle": "Hyper.js neu starten",
+    "restartText": "Sie müssen Hyper.js neu starten, um die Änderungen zu übernehmen.",
+
+    "id": "ID",
+    "name": "Name",
+    "legend": "Legende",
+    "user": "Benutzer",
+    "group": "Gruppe",
+    "accelerator": "Tastaturkürzel",
+    "host": "Host",
+    "type": "Typ",
+    "port": "Port",
+    "sshKey": "SSH-Schlüssel",
+    "custom": "Benutzerdefiniert",
+    "customArguments": "Benutzerdefinierte Argumente",
+    "launch": "Starten",
+    "launchActiveTerm": "Aktives Terminal",
+    "launchNewTab": "Neuer Tab",
+    "launchSplitHorizontally": "Horizontal teilen",
+    "launchSplitVertically": "Vertikal teilen",
+
+    "groupLegend": "Sie haben #count# Gruppe(n).",
+    "connectionLegend": "Sie haben #count# Verbindung(en).",
+
+    "newGroup": "Neue Gruppe",
+    "modifyGroup": "Gruppe ändern",
+    "newConnection": "Neue Verbindung",
+    "modifyConnection": "Verbindung ändern",
+
+    "confirmation": "Bestätigung",
+    "deleteGroupConfirm": "Sind Sie sicher, dass Sie diese Gruppe (#name#) löschen möchten?",
+    "deleteGroupsConfirm": "Sind Sie sicher, dass Sie #count# Gruppen löschen möchten?",
+    "deleteConnectionConfirm": "Sind Sie sicher, dass Sie diese Verbindung (#name#) löschen möchten?",
+    "deleteConnectionsConfirm": "Sind Sie sicher, dass Sie #count# Verbindungen löschen möchten?"
+  },
+  "groups": [],
+  "servers": []
+}
